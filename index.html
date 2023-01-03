@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>Google Maps</title>
+   <link href="style.css" rel="stylesheet" type="text/css">
+   <script src="script.js"></script>
+ </head>
+<body>
+<h2>Maps</h2> 
+<div id="maps"></div>
+<br>
+<input id="searchInput"  type="text" name="searchInput" placeholder="Enter a Location">
+<button id="searchButton" onclick="add(document.getElementById('searchInput').value)">Search</button>
+  
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCahPncQlFWol4PpotZxu8JfwrDymfvfFA&callback=myMap"></script>
+  
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+</body>
+</html>

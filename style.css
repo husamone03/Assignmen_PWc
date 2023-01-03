@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+h2{
+   position: relative;
+  left: 50%;
+}
+#maps {
+  height: 400px; 
+  width: 100%; 
+}
+
+#searchButton{
+border-radius: 8px;
+  background-color: #448bf7;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size:15px
+}
+#searchInput{
+  border-radius: 6px;
+  border-style: solid;
+  border-width: thin;
+}
+
